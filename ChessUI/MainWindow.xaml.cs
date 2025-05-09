@@ -127,7 +127,7 @@ namespace ChessUI
 
         private void ShowHighlights()
         {
-            Color color = Color.FromArgb(255,125,255,125); //green
+            Color color = Color.FromArgb(125,0,173,255); //gold
 
             foreach (Position to in moveCache.Keys)
             {

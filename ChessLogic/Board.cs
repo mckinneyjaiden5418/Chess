@@ -59,5 +59,47 @@
         {
             return this[pos] == null;
         }
+
+        public IEnumerable<Position> PiecePosition()
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    Position pos = new Position(i, j);
+
+                    if (!IsEmpty(pos))
+                    {
+                        yield return pos;
+                    }
+                }
+            }
+        }
+        
+        public IEnumerable<Position> PiecePositionFor(Player player)
+        {
+            return PiecePosition().Where(pos => this[pos].Color == player);
+        }
+
+        public bool IsInCheck(Player player)
+        {
+            return PiecePositionFor(player.Opponent()).Any(pos =>
+            {
+                Piece piece = this[pos];
+                return piece.CanCaptureOpponentKing(pos, this);
+            });
+        }
+
+        public Board Copy()
+        {
+            Board copy = new Board();
+            
+            foreach (Position pos in PiecePosition())
+            {
+                copy[pos] = this[pos].Copy();
+            }
+
+            return copy;
+        }
     }
 }
