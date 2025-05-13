@@ -76,14 +76,14 @@
             }
         }
         
-        public IEnumerable<Position> PiecePositionFor(Player player)
+        public IEnumerable<Position> PiecePositionsFor(Player player)
         {
             return PiecePosition().Where(pos => this[pos].Color == player);
         }
 
         public bool IsInCheck(Player player)
         {
-            return PiecePositionFor(player.Opponent()).Any(pos =>
+            return PiecePositionsFor(player.Opponent()).Any(pos =>
             {
                 Piece piece = this[pos];
                 return piece.CanCaptureOpponentKing(pos, this);
