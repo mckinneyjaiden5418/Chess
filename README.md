@@ -7,7 +7,7 @@
 **INTRODUCTION**
 
 This is a project for the game of chess! 
-It is currently unfinished, but I am actively working on it and hope to complete it before June.
+It is currently unfinished, but I am actively working on it and hope to complete it before July.
 I am currently following a tutorial by OttoBotCode to code this (link to channel and tutorial at the bottom of the README).
 However, I plan on making a few changes to apply my newly learned skills and to make this project more personal to me (such as a different GUI, new rules not originally in chess, and more).
 
