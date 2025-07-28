@@ -1,28 +1,21 @@
-# Chess Project (WIP)
+# Chess Project
 
 **PROJECT STATUS**
 
-🚧 Unfinished – actively being worked on!
+✅ Finished – The base game is finished, more features will possibly be added in the future.
 
 **INTRODUCTION**
 
 This is a project for the game of chess! 
-It is currently unfinished, but I am actively working on it and hope to complete it before July.
-I am currently following a tutorial by OttoBotCode to code this (link to channel and tutorial at the bottom of the README).
-However, I plan on making a few changes to apply my newly learned skills and to make this project more personal to me (such as a different GUI, new rules not originally in chess, and more).
-
+The base game is currently finished (basically you can play chess with all the rules working).
+I followed a tutorial by OttoBotCode to code the base game (link to channel and tutorial at the bottom of the README).
+However, I made a few changes to make this project more personal to me, such as using a different board.
 
 **WHY I FOLLOWED A TUTORIAL**
 
-I didn’t follow a tutorial because I thought I couldn’t make a chess project on my own.
-In fact, I think I could make a chess project without a tutorial because I already understand OOP concepts.
-The real reason I followed a tutorial is because I want to write cleaner code!
-In my last project (a Discord bot I’m still updating), I eventually realized that as I got deeper into it, my code became pretty unorganized and complicated.
-Thus, now that I'm starting my second project, I wanted a big focus to be writing clean code.
-But the only way to recognize clean code is to study clean code.
-So, even though I dislike following tutorials and like to solve problems on my own or in a team, I decided to follow one to learn how to write code at least a little bit cleaner!
-
-TLDR --> I followed a tutorial to learn how to write clean code because if you don't know what clean code looks like, you likely cannot write clean code.
+I followed a tutorial to learn good coding practices.
+That was the main reason I did this project in the first place.
+I decided that following a tutorial was necessary to achieve my goal because to write good code, you have to know what good code looks like.
 
 **SOURCES**
 
